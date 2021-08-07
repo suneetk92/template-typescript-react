@@ -4,7 +4,7 @@ tasks:
     command: yarn start
 ports:
   - port: 3000
-    onOpen: open-preview
+    onOpen: ignore
 github:
   prebuilds:
     # enable for the default branch (defaults to true)
