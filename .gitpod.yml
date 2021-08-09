@@ -1,10 +1,11 @@
 # Learn more about this file at https://www.gitpod.io/docs/references/gitpod-yml
+gitpod/workspace-full
 tasks:
   - init: yarn
     command: yarn start
 ports:
   - port: 443
-    onOpen: ignore
+    onOpen: open-preview
 github:
   prebuilds:
     # enable for the default branch (defaults to true)
